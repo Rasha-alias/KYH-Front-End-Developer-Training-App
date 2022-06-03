@@ -1,38 +1,187 @@
-.App {
+@import url("https://fonts.googleapis.com/css2?family=Domine&family=Indie+Flower&family=Mochiy+Pop+P+One&family=Quintessential&family=Satisfy&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&family=Mochiy+Pop+P+One&display=swap");
+
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Domine&family=Indie+Flower&family=Itim&family=Kalam:wght@700&family=Mochiy+Pop+P+One&family=Patrick+Hand&family=Quintessential&family=Satisfy&family=Supermercado+One&display=swap');
+
+/*************Style homePage***********/
+
+/*****************navbar***************/
+
+
+.brand{
+  font-size:25px;
+  font-weight: bold;
+ 
+}
+.nav-link{
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.nav-link:hover{
+  text-shadow: 2px 2px 10px rgb(44, 129, 209) ;
+}
+
+.homestyle{
+  margin-top: 30px;
+}
+
+.textstyle{
+  margin-top: 50px;
+  font-size: 33px;
+  font-stretch:wider;
+  font-weight: bold;
   text-align: center;
+  font-family: 'Satisfy', cursive;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/*************************Errorpage******************/
+.error{
+  margin-top: 100px;
+  text-align:center;
+  color:rgb(206, 35, 35);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.go-to-homepage{
+  margin-top: 100px;
+  text-align:center;
+  font-size: 40px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.error-button{
+  margin-top: 30px;
+  margin-left: 750px;
+  background-color: rgb(37, 107, 37);
+  font-size:30px ;
+  border-color: black;
+}
+
+.wrong-image{
+height: 70px;
+width:70px;
+display:block;
+margin: auto;
+margin-top: 50px;
+}
+
+/*************************************Footer*******************************/
+
+.footer{
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  direction: row;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  position:relative;
 }
 
-.App-link {
-  color: #61dafb;
+.content{
+  position:absolute;
+  content:" ";
+  justify-content: center;
+  height:3px;
+  width:80%;
+  background-color:rgb(77, 78, 78);
+  margin-bottom:50px;
+  margin-top:130px; 
+  opacity: 0.5;
+  border-radius: 5px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.box{
+  position:absolute;
+  display: flex;
+  justify-content: space-around;
+  margin-top:150px;
+  padding-bottom: 30px;
+  width:90%;
+  color:rgb(77, 78, 78);
+  font-weight: bold;
+  display: -webkit-box;
+  display: -ms-flexbox;
+}
+
+.box-left{
+  display: flex;
+  height:50px;
+  width:200px;
+  justify-content: space-around;
+}
+
+
+@media screen and (max-width: 576px) {
+  .footer{
+    display: flex;
+    direction: column;
+    justify-content: center;
+    position:relative;
+    margin-top: 50px;
   }
-  to {
-    transform: rotate(360deg);
+  .content{
+    position:absolute;
+    content:" ";
+    justify-content: center;
+    height:3px;
+    width:80%;
+    background-color:rgb(77, 78, 78);
+    margin-bottom:2px;
+    margin-top:20px; 
+    opacity: 0.5;
+    border-radius: 5px;
   }
+  
+  .box{    
+    margin-top:50px;
+    width:300px;
+    justify-content: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  
+  .box .box-left{
+    display: flex;
+    height:50px;
+    width:300px;
+    justify-content: space-around;
+    margin-bottom: 10px;
+  }
+  .box .box-center{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    width:300px;
+    text-align: center;
+    
+  }
+  
+ .box .box-right{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  width:300px;
+  }  
+}
+
+@media screen and (min-width: 1024px) {
+  .footer{
+    display: flex;
+    direction: column;
+    justify-content: center;
+    position:relative;
+    margin-top: 40px;
+  }
+  .content{
+    margin-top:5px; 
+  }
+
+  .box{    
+    margin-top:20px;
+   
+  }
+  
 }

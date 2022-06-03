@@ -1,0 +1,94 @@
+{
+  "courses": [
+    {
+      "courseName": "Arbetsmetodik 1",
+      "point": 10,
+      "startDate": "2021-08-30",
+      "endDate": "2021-09-10",
+      "description": "Kursens syfte är att ge en introduktion till yrket och yrkesrollen samt vad en frontend-utvecklares huvudsakliga arbetsuppgifter är. Kursens syfte är också att ge en övergripande förståelse för frontend-utveckling, dess syfte och uppkomst. Kursen lyfter olika termer, begrepp och primära redskap som används i yrket och under utbildningen. Kursen ska vara en introduktion för vad de olika momenten i utbildningen innebär för yrkesrollen.",
+      "teachersId": 2,
+      "id": 1
+    },
+    {
+      "courseName": "Javascript 1",
+      "point": 30,
+      "startDate": "2021-09-13",
+      "endDate": "2021-10-22",
+      "description": "Kursen innehåller grundläggande programmering i JavaScript för DOM:en, däribland objektorienterade implementationer i JavaScript. Studerande får förståelse för kompatibiliteten hos olika Javascriptversioner samt hur Javascript körs i olika webbläsare och plattformar, samt lär sig lösa programmeringsuppgifter i Javascript.",
+      "teachersId": 2,
+      "id": 2
+    },
+    {
+      "courseName": "HTML/CSS",
+      "point": 30,
+      "startDate": "2021-10-25",
+      "endDate": "2021-12-03",
+      "description": "Syftet med kursen är att den studerande ska få kunskap och färdighet i hur man utvecklar webblösningar i HTML och CSS, både fristående och i publiceringssystem. Kursen belyser även den senaste tekniken och ramverken inom HTML/CSS, SEO, preprocessorer som exempelvis Sass, Tailwind, Emotion, responsiv design m.m. Kursen tar även upp rådande webbstandarder och riktlinjer inom webbutveckling.",
+      "teachersId": 2,
+      "id": 3
+    },
+    {
+      "courseName": "Arbetsmetodik 2",
+      "point": 15,
+      "startDate": "2021-12-06",
+      "endDate": "2021-12-24",
+      "description": "Kursens syfte är att ge kunskap i modern lättrörlig projektmetodik och få praktiska färdigheter inom detta. Andra systemutvecklingsmetoder som ex. testdriven utveckling ingår i kursen. Kursen ger exempel på relevanta verktyg och arbetsmetoder för en utvecklare. Under kursen lär sig de studerande även att arbeta med versionshantering. Kursen går igenom effektiva arbetsflöden för utveckling av system samt hur man delar sitt arbete inom ett team och hittar gemensamma arbetsflöden för hela teamet.",
+      "teachersId": 2,
+      "id": 4
+    },
+    {
+      "courseName": "Javascript 2",
+      "point": 30,
+      "startDate": "2021-12-27 ",
+      "endDate": "2022-02-04",
+      "description": "Kursen tar upp hur man använder ramverk i JavaScript samt hur man tar hjälp av verktyg som är relevanta för JavaScript-fokuserad utveckling. Under kursen diskuteras även de senaste utvecklingstendenserna inom JavaScript utveckling, t ex nya ramverk. De studerande ges goda kunskaper gällande att använda olika JavaScript-bibliotek t.ex. JQuery. De studerande ges goda kunskaper i hur ramverk fungerar samt kunna välja lämpliga tekniker utifrån projektspecifikationer.",
+      "teachersId": 3,
+      "id": 5
+    },
+    {
+      "courseName": "UX & grafiska verktyg",
+      "point": 15,
+      "startDate": "2022-02-08",
+      "endDate": "2022-02-24",
+      "description": "Syftet med kursen är att ge de studerande förståelse för vanligt förekommande metoder inom UX-design samt om grafiska verktyg för prototypframtagning, gränssnittsdesign samt användningstestning som frontend-utvecklare kommer i kontakt med. Kursen tar upp typiska grafiska verktyg som används för att testa och ta fram prototyper och övriga metoder som används av en UX-designer. Kursens syfte är även att förmedla tillräckliga kunskaper, färdigheter och kompetenser inom UX & grafiska verktyg för att de studerande ska kunna arbeta med det avslutande projekt som genomförs i kursen Front End-projekt år 2.",
+      "teachersId": 4,
+      "id": 6
+    },
+    {
+      "courseName": "Back-end-utveckling",
+      "point": 35,
+      "startDate": "22022-02-28 ",
+      "endDate": "2022-04-12",
+      "description": "Efter avslutad kurs ska de studerande ha kunskap för att utföra sådana arbetsuppgifter inom back-end-programmering som relaterar till frontend-utveckling. Kursen innefattar programmering i backend, med programspråk såsom PHP, samt hur man använder JavaScript i back-end syfte med Node.js. De studerande ska även ha kunskap och förståelse för de möjligheter och särskilda krav som dynamiska system ställer på utvecklingsprocessen. De studerande ska också ha tillgodogjort sig grundläggande kunskaper i databashantering.",
+      "teachersId": 2,
+      "id": 7
+    },
+    {
+      "courseName": "Javascript 3",
+      "point": 35,
+      "startDate": "2022-04-19",
+      "endDate": "2022-06-03",
+      "description": "Kursen ger de studerande avancerade kunskaper och färdigheter i att programmera, strukturera samt testa JavaScript-projekt med ramverk. I kursen ingår engelsk terminologi och begrepp, samt att kod ska kommenteras på engelska, samt framtagandet av tester för koden. De studerande får kunskaper om att det finns olika JavaScript-versioner och lär sig jämföra dessa, och lär sig när och varför man transpilerar kod mot en viss Javascriptversion.",
+      "teachersId": 2,
+      "id": 8
+    },
+    {
+      "courseName": "LIA",
+      "point": 100,
+      "startDate": "2022-11-28",
+      "endDate": "2023-04-14",
+      "description": "Praktik på plats",
+      "teachersId": 1,
+      "id": 9
+    },
+    {
+      "courseName": "javascript 4",
+      "point": 50,
+      "startDate": "2022-06-13",
+      "endDate": "2022-07-03",
+      "description": "avancerad kurs",
+      "teachersId": 5,
+      "id": 10
+    }
+  ]
+}

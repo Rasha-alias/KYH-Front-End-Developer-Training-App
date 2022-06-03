@@ -1,0 +1,57 @@
+{
+  "teachers": [
+    {
+      "id": 1,
+      "firstName": "Rebecka",
+      "lastName": "Hedlin",
+      "description": [
+        " En positiv, driven och kreativ person.",
+        " Jag jobbar som Utbildningsledare",
+        " ansvarar för utbildningarna Front-End Developer och Energispecialist Byggnader på KYH Yrkeshögskola."
+      ],
+      "email": "Rebecka_Hedlin@gmail.com"
+    },
+    {
+      "id": 2,
+      "firstName": "Marcus",
+      "lastName": "Henriksson",
+      "description": [
+        " Data- och Systemering på Högskolan Väst.",
+        " Arbetat på en rad olika företag och läst påbyggnadsutbildningar.",
+        " Började jobba som utbildare för ett år sedan."
+      ],
+      "email": "Marcus_Henriksson@gmail.com"
+    },
+    {
+      "id": 3,
+      "firstName": "Djura",
+      "lastName": " Dzakula",
+      "description": [
+        " Gått på YH Handelsakademin i Göteborg.",
+        " Systemutvecklare OOP.",
+        " Cybint Cyber Security."
+      ],
+      "email": "Djura_Dzakula@gmail.com"
+    },
+    {
+      "id": 4,
+      "firstName": "Sussi",
+      "lastName": "Zällh",
+      "description": [
+        " Har jobbat inom UX i 15 år.",
+        " Gjort uppdrag med kunder från olika branscher och länder.",
+        " Bakgrund som beteendevetare med inriktning på Psykologi."
+      ],
+      "email": "Sussi_Zällh@gmail.com"
+    },
+    {
+      "id": 5,
+      "firstName": "Dagmara",
+      "lastName": " Gotlib",
+      "description": [
+        " Restory Asisstant."
+      ],
+      "email": "Dagmara_Gotlib@gmail.com"
+    }
+  ]
+}

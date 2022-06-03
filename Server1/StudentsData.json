@@ -1,0 +1,46 @@
+{
+  "students": [
+    {
+      "firstName": "Mario",
+      "lastName": "Fernandez",
+      "age": 41,
+      "id": 1
+    },
+    {
+      "firstName": "Jesper",
+      "lastName": "Sjöström",
+      "age": 21,
+      "id": 2
+    },
+    {
+      "firstName": "Frank",
+      "lastName": "Apslund",
+      "age": 25,
+      "id": 3
+    },
+    {
+      "firstName": "Fredrik",
+      "lastName": "Fältö",
+      "age": 26,
+      "id": 4
+    },
+    {
+      "firstName": "Rasha",
+      "lastName": "Alias",
+      "age": 38,
+      "id": 5
+    },
+    {
+      "firstName": "Lina",
+      "lastName": "Andersson",
+      "age": 32,
+      "id": 6
+    },
+    {
+      "firstName": "rasmus",
+      "lastName": "rossetti",
+      "age": 26,
+      "id": 7
+    }
+  ]
+}
